@@ -1,0 +1,11 @@
+praw==7.7.1
+prawcore==2.4.0
+pandas==2.1.2 
+numpy==1.26.1
+python-dateutil==2.8.2
+pyarrow==13.0.0
+pyspark==3.5.0
+google-cloud-bigquery==3.12.0
+python-decouple==3.8
+apache-airflow==2.7.2
+google-cloud-iam==2.12.2

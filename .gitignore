@@ -1,0 +1,11 @@
+__pycache__
+.ipynb_checkpoints
+credentials/
+.DS_Store
+.env
+
+/airflows/config
+/airflows/logs
+.DS_Store
+reddit_env
+gcp_key.json
