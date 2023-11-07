@@ -41,9 +41,9 @@
 3. Enter the following in the `.env` file:
 
 ```bash
-REDDIT_CLIENT_ID="your_client_id"
-REDDIT_CLIENT_SECRET="your_client_secret"
-GCP_PROJECT_ID="your_gcp_project_id"
+reddit_client_id="your_client_id"
+reddit_client_secret="your_client_secret"
+gcp_project_id="your_gcp_project_id"
 ```
 
 4. In the `Dockerfile`, ensure the `JAVA_HOME` environment variable is set to the correct path.
