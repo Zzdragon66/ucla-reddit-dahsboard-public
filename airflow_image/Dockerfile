@@ -17,3 +17,8 @@ COPY python_requirements.txt python_requirements.txt
 
 RUN pip3 install --no-cache-dir 'apache-airflow-providers-apache-spark'
 RUN pip3 install -r ./python_requirements.txt
+
+USER root
+RUN chmod 644 /opt/airflow/.env
+
+USER airflow
